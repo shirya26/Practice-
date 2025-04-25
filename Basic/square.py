@@ -3,6 +3,6 @@ def apply_function(data, func):   # function defination
 
 def square(x):   #sqare fun
     return x * x
-
+print("calling function")
 result = apply_function([1, 2, 3], square)
 print(result)  # Output: [1, 4, 9]   // printing result 
