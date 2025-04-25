@@ -5,4 +5,4 @@ def square(x):   #sqare fun
     return x * x
 
 result = apply_function([1, 2, 3], square)
-print(result)  # Output: [1, 4, 9]
+print(result)  # Output: [1, 4, 9]   // printing result 
