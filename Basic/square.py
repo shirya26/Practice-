@@ -1,4 +1,4 @@
-def apply_function(data, func):
+def apply_function(data, func):   # function defination
     return [func(item) for item in data]
 
 def square(x):
