@@ -1,7 +1,7 @@
 def apply_function(data, func):   # function defination
     return [func(item) for item in data]
 
-def square(x):
+def square(x):   #sqare fun
     return x * x
 
 result = apply_function([1, 2, 3], square)
